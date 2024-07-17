@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>city Wall</title>
+    <!-- fav icon link -->
+    <link rel="shortcut icon" href="images/fav-icon/fav-logo.png" type="image/x-icon">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link slick slider CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- letter animation -->
+    <link rel="stylesheet" href="css/cssanimation.min.css">
+    <!-- lordicon icons animation -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+     <!-- =====header section===== -->
+     <header>
+        <div class="home-one">
+            <div class="top-header">
+                <div class="top-header-content">
+                    <div class="container">
+                        <div class="contact-top-information d-flex">
+                            <div class="mobile-number-email d-flex">
+                                <a href="tel:+1999806915">
+                                    <i class="bi bi-telephone phone"></i>
+                                    +199(980) 6915
+                                </a>
+                                <a href="mailto:shifamoni@gmail.com">
+                                    <i class="bi bi-envelope email"></i>
+                                    shifamoni@gmail.com
+                                </a>
+                            </div>
+                            <div class="language-socialLink d-flex ms-auto">
+                                <div class="language">
+                                    <label for="language" class="text-white">Language:</label>
+                                    <select id="language">
+                                        <option value="english">English</option>
+                                        <option value="mandarin">Mandarin</option>
+                                        <option value="hindi">Hindi</option>
+                                        <option value="french">French</option>
+                                        <option value="modern">Modern</option>
+                                        <option value="bengali">Bengali</option>
+                                        <option value="Russian">Russian</option>
+                                    </select>
+                                </div>
+                                <div class="socialLink d-flex">
+                                    <p class="d-inline-block text-white">Follow on:</p>
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-vine"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-details navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="brand-logo">
+                        <a class="navbar-brand" href="index.html"><img src="images/multiple-use/header/logo.png"
+                                class="img-fluid" alt="logo"></a>
+                    </div>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navigation-link collapse navbar-collapse gap-4" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link fw-normal" href="index.html"><span>Home</span></a>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link fw-normal hover-style" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span>Pages</span><i class="bi bi-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="faq-page.html">FAQ</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                   
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="error-page.html">Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-normal" href="service-detail.html"><span>Services</span></a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link fw-normal hover-style" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span>Teams</span><i class="bi bi-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="team.html">Team</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="team-details.html">Team Details</a></li>
+                                </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link fw-normal" href="gallary.html"><span>Gallary</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-normal" href="contact.html"><span>Contact</span></a>
+                            </li>
+                        </ul>
+                        <div
+                            class="getStart-sideMenu d-flex align-items-center align-content-center justify-content-center justify-content-md-between gap-2 ">
+                            <div class="d-flex align-items-center ms-sm-0 ms-lg-auto ms-xl-auto ms-xxl-auto cityWall-btn"
+                                role="search">
+                                <a href="contact.html">Get A
+                                    Quote <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                            <div class="said-navbar ms-2">
+                                <a href="#" class="navSidebar-button" onclick="openNav()">
+                                    <i class="bi bi-grid-3x3-gap-fill"></i>
+                                </a>
+                                <div id="mySidenav" class="sidenav">
+                                    <div class="side-logo-button">
+                                        <a href="index.html">
+                                            <img src="images/multiple-use/side-navmenu/logo-bgwhite.png" class="img-fluid"
+                                                alt="">
+                                        </a>
+                                        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                                    </div>
+                                    <div class="our-mission ">
+                                        <h4 class="text-white">Our mission</h4>
+                                        <p>TRICOL's mission is reflected in its positioning in a specific market: the recycling of non-ferrous metal waste exclusively from the industry. We have thus developed unique expertise in our sector.</p>
+                                    </div>
+                                    <div class="contact">
+                                        <div class="con-info">
+                                            <h4 class="text-white ">Contact Info</h4>
+                                            <ul>
+                                                <li><a href="#"><i class="bi bi-geo-alt"></i> Valentin, Street Road 24,
+                                                        New
+                                                        York,
+                                                        USA - 67452</a></li>
+                                                <li> <a href="tel:+1999806915">
+                                                        <i class="bi bi-telephone phone"></i>
+                                                        +199(980) 6915
+                                                    </a></li>
+                                                <li><a href="mailto:shifamoni@gmail.com">
+                                                        <i class="bi bi-envelope email"></i>
+                                                        shifamoni@gmail.com
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="social-link">
+                                            <ul>
+                                                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                                <li><a href="#"><i class="bi bi-twitter-x"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- =========main section========= -->
+    <main class="projects-details">
+        <!-- =====Banner Section===== -->
+        <div class="banner">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="images-optimization position-relative ">
+                            <img src="images/multiple-use/default-banner/banner.png" class="d-block img-fluid " alt="...">
+                            <div class="cover-images-overlay">
+                                <div class="container">
+                                    <div class="banner-content ">
+                                        <h4 class="text-white">Common Questions and Answers</h4>
+                                        <h1 class="text-white text-uppercase  my-3">faq page</h1>
+                                    </div>
+                                    <div class="home-about-link">
+                                        <ul>
+                                            <li><a class="text-white" href="index.html">Home</a></li>
+                                            <li class="text-white"> / </li>
+                                            <li><a class="text-white" href="faq-page.html">faq-page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="images-optimization position-relative ">
+                            <img src="images/multiple-use/default-banner/banner2.png" class="d-block img-fluid " alt="...">
+                            <div class="cover-images-overlay">
+                                <div class="container">
+                                    <div class="banner-content ">
+                                        <h4 class="text-white">Common Questions and Answers</h4>
+                                        <h1 class="text-white text-uppercase  my-3">faq page</h1>
+                                    </div>
+                                    <div class="home-about-link">
+                                        <ul>
+                                            <li><a class="text-white" href="index.html">Home</a></li>
+                                            <li class="text-white"> / </li>
+                                            <li><a class="text-white" href="faq-page.html">faq-page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="images-optimization position-relative ">
+                            <img src="images/multiple-use/default-banner/banner3.png" class="d-block img-fluid " alt="...">
+                            <div class="cover-images-overlay">
+                                <div class="container">
+                                    <div class="banner-content ">
+                                        <h4 class="text-white">Common Questions and Answers</h4>
+                                        <h1 class="text-white text-uppercase  my-3">faq page</h1>
+                                    </div>
+                                    <div class="home-about-link">
+                                        <ul>
+                                            <li><a class="text-white" href="index.html">Home</a></li>
+                                            <li class="text-white"> / </li>
+                                            <li><a class="text-white" href="faq-page.html">faq-page</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ Page -->
+<section class="faq-page" data-aos="fade-up">
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. What does TRICOL specialize in?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL specializes in the recovery, collection, transport, recycling, refining, and valorization
+                        of ferrous and non-ferrous metals, particularly semi-finished products made of copper and
+                        aluminum.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. How long has TRICOL been in operation?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL was founded in 2016.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. What are the main services offered by TRICOL?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL offers services such as metal trading (including aluminum, copper, brass, zinc, etc.)
+                        and logistics for transporting and handling metal waste.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4. What is TRICOL's approach to sustainability?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL is committed to sustainability by transforming metal waste into high-quality raw materials
+                        for the industry, adhering to strict environmental standards.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5. How does TRICOL ensure the quality of its recycled materials?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL ensures the quality of its recycled materials through rigorous processing and refining
+                        processes, maintaining high standards for industry use.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                        6. What industries does TRICOL primarily serve?
+                    </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL primarily serves industries that generate non-ferrous metal waste, providing tailored
+                        solutions for recycling and valorization.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        7. Can TRICOL handle large-scale metal waste management?
+                    </button>
+                </h2>
+                <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Yes, TRICOL manages large-scale metal waste management, offering logistics solutions with
+                        equipped trucks and containers to meet industrial needs effectively.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        8. Does TRICOL purchase metal waste from individual sellers or only from industries?
+                    </button>
+                </h2>
+                <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL purchases metal waste from various sources, including industries, ensuring competitive
+                        prices and efficient logistics for all suppliers.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                        9. What sets TRICOL apart in the recycling industry?
+                    </button>
+                </h2>
+                <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL's expertise lies in its exclusive focus on non-ferrous metal recycling, backed by years
+                        of experience and a commitment to quality and sustainability.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed ps-3" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        10. How does TRICOL contribute to the circular economy?
+                    </button>
+                </h2>
+                <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        TRICOL contributes to the circular economy by transforming metal waste into valuable raw
+                        materials, thus reducing environmental impact and promoting resource efficiency.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- =====Footer section===== -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2 subscribe-field g-4 ">
+                <div class="col">
+                    <div class="subscribe-content position-relative">
+                        <div class="divide-column position-absolute"></div>
+                        <h3 class="tow ms-3 mb-1 text-white">Subscribe To Newsletter</h3>
+                        <p class="ms-3 text-white-50">Stay updated with our latest news and offers.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <form action="#" class="d-flex">
+                        <input type="email" name="email" id="footerEmail" placeholder="Enter Your Email Address" required>
+                        <button class="subscript" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 g-4 our-details">
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <a href="index.html"><img src="images/multiple-use/footer/logo-bgwhite.png" class="card-img-top img-fluid" alt="..."></a>
+                        <div class="card-body px-0 py-3">
+                            <p class="card-text text-white">At Tricol, we lead the way in sustainable metal scrap processing and trading. Our innovative solutions drive the industry forward.</p>
+                        </div>
+                        <div class="social-info">
+                            <div class="position-relative">
+                                <div class="divide-column position-absolute"></div>
+                                <h4 class="ms-3 text-white">Social Info</h4>
+                            </div>
+                            <ul class="d-flex mt-2 gap-3 ms-3">
+                                <li><a class="text-white" href="#"><i class="link-icons fa-brands fa-facebook-f"></i></a></li>
+                                <li><a class="text-white" href="#"><i class="link-icons fa-brands fa-twitter"></i></a></li>
+                                <li><a class="text-white" href="#"><i class="link-icons fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a class="text-white" href="#"><i class="link-icons fa-brands fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="industry-info">
+                            <div class="position-relative">
+                                <div class="divide-column position-absolute"></div>
+                                <h4 class="ms-3 text-white">Industry Sector</h4>
+                            </div>
+                            <ul class="d-flex flex-column mt-3 row-gap-2 ms-3">
+                                <li><a class="text-white" href="#">Our Services</a></li>
+                                <li><a class="text-white" href="#">How We Work</a></li>
+                                <li><a class="text-white" href="#">Sustainability</a></li>
+                                <li><a class="text-white" href="#">Projects</a></li>
+                                <li><a class="text-white" href="#">Terms & Conditions</a></li>
+                                <li><a class="text-white" href="#">Jobs & Careers</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="touch-info">
+                            <div class="position-relative">
+                                <div class="divide-column position-absolute"></div>
+                                <h4 class="ms-3 text-white">Get In Touch</h4>
+                            </div>
+                            <ul class="d-flex flex-column mt-3 row-gap-2 ms-3">
+                                <li class="text-white mb-2">123 Metal Street, Industrial City, USA - 54321</li>
+                                <li>
+                                    <a class="text-white" href="tel:+1234567890">
+                                        <i class="bi bi-telephone phone"></i>
+                                        +1(234) 567-890
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="text-white" href="mailto:info@tricol.com">
+                                        <i class="bi bi-envelope email"></i>
+                                        info@tricol.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-transparent border-0">
+                        <div class="working-info">
+                            <div class="position-relative">
+                                <div class="divide-column position-absolute"></div>
+                                <h4 class="ms-3 text-white">Working Hours</h4>
+                            </div>
+                            <ul class="mt-3 ms-3 text-white">
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>Monday - Friday</div>
+                                        <div>09:00 - 18:00</div>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>Saturday</div>
+                                        <div>10:00 - 14:00</div>
+                                    </div>
+                                    <hr>
+                                </li>
+                                <li>
+                                    <div class="d-flex justify-content-between">
+                                        <div>Sunday</div>
+                                        <div>Closed</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="term-and-condition">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center copy-right-content">
+                    <div class="text-white copy-right">© 2024 - 2025 | All rights reserved by <span>Tricol</span></div>
+                    <div class="button-div">
+                        <a href="#" class="up-to-down-btn to-top"><i class="bi bi-chevron-double-up"></i></a>
+                    </div>
+                    <div>
+                        <ul class="d-flex gap-3">
+                            <li><a class="text-white" href="#">Terms</a></li>
+                            <li><a class="text-white" href="#">Privacy</a></li>
+                            <li><a class="text-white" href="#">License</a></li>
+                            <li><a class="text-white" href="#">Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery js -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- letter animation -->
+    <script src="js/plugins/letteranimation.min.js"></script>
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- font awesome -->
+    <script src="js/all.min.js"></script>
+    <!-- slick slider JS -->
+    <script src="js/plugins/slick.js"></script>
+    <script src="js/plugins/slick.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>
